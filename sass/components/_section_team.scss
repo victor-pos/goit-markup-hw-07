@@ -1,0 +1,119 @@
+.team {
+    background-color: var(--three-color);
+    padding: 94px 0;
+}
+
+.team__list {
+    display: flex;
+}
+
+.team__item {
+    text-align: center;
+    width: 270px;
+    background-color: var(--second-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.team-card {
+    padding: 30px 0;
+}
+
+.team-card__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-card__text {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--two-color);
+}
+
+.social-icons__list {
+    display: flex;
+    margin-top: 16px;
+    padding: 0 32px;
+    gap: 10px;
+}
+
+.social-icon__image {
+    height: 20px;
+    width: 20px;
+    fill: var(--icon-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon__link {
+    height: 44px;
+    width: 44px;
+    color: var(--second-color);
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--main-btn-color);
+    }
+
+    &:hover .social-icon__image,
+    &:focus .social-icon__image {
+        fill: var(--second-color);
+    }
+}
+
+.cliens {
+    background-color: var(--second-color);
+    padding: 94px 0;
+}
+
+.cliens__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cliens__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    cursor: pointer;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border: 1px solid var(--main-btn-color);
+    }
+
+    &:hover .cliens__image,
+    &:focus .cliens__image {
+        fill: var(--main-btn-color);
+    }
+}
+
+.cliens__image {
+    display: flex;
+    height: 60px;
+    width: 106px;
+    fill: var(--icon-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cliens__item:not(:last-child) {
+    margin-right: 30px;
+}
