@@ -205,7 +205,7 @@
     .modal-check__input:checked+&:before {
         background-color: var(--main-btn-color);
         border-color: transparent;
-        background-image: url(../../img/check.svg);
+        background-image: url(../img/check.svg);
         background-repeat: no-repeat;
         background-position: center;
     }

@@ -195,8 +195,8 @@ img {
   max-width: 1600px;
   height: 600px;
   margin: 0 auto;
-  background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../img/hero.jpg);
-  background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/hero.jpg);
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/hero.jpg);
+  background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1004,7 +1004,7 @@ address {
 .modal-check__input:checked + .modal-check__label:before {
   background-color: var(--main-btn-color);
   border-color: transparent;
-  background-image: url(../../img/check.svg);
+  background-image: url(../img/check.svg);
   background-repeat: no-repeat;
   background-position: center;
 }/*# sourceMappingURL=main.css.map */
